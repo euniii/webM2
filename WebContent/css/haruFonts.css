@@ -1,0 +1,24 @@
+@charset "EUC-KR";
+
+/*
+style="font-family: GoodFont" 
+*/
+
+/*
+<link rel="stylesheet" href="/webM2/css/haruFonts.css">
+*/
+
+@font-face {
+   font-family: 'GoodFont'; /* 폰트 패밀리 이름 주기*/
+   src: url('/webM2/fonts/bbb.ttf'); /*폰트 파일 주소*/
+ }
+ 
+@font-face {
+   font-family: 'GoodFont2'; /* 폰트 패밀리 이름 주기*/
+   src: url('/webM2/fonts/aaa.ttf'); /*폰트 파일 주소*/
+  }
+  
+@font-face {
+   font-family: 'GoodFont3'; /* 폰트 패밀리 이름 주기*/
+   src: url('/webM2/fonts/ccc.ttf'); /*폰트 파일 주소*/
+}

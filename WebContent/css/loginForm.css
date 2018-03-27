@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.login{
+   font-family: 'Josefin Sans', sans-serif;
+   background: #f8f8f8; 
+   padding:40px 0px;
+}
+
+h1{
+    font-weight:600;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform:capitalize;
+    text-align:center;
+   /*  color:#FFF; */
+}
+
+.inner-form{
+    background:#FFF;
+    padding:80px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+    margin-top:30px;
+}
+
+/*가계부 작성 폼*/
+.inner-form2{
+    background:#FFF;
+    padding: 80px 80px 30px 80px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+    margin-top:30px;
+}
+
+
+label{
+    font-weight:400;
+    font-size:15px;
+}
+
+.form-control {
+    background-color: #f5f5f5;
+    box-shadow: none;
+    color: #565656;
+    font-size:14px;
+    padding:30px 10px;
+    margin-bottom:20px;
+    border: 1px solid #f1f1f1;
+}
+/*일반사용자 정보보기*/
+.form-control2 {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    margin-bottom:20px;
+    background-color: #f5f5f5;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+/*일반사용자 정보수정*/
+.form-control3 { 
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    margin-bottom:20px;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+/*가계부 작성폼*/
+.form-control4 { 
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 15px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    margin-bottom:20px;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btn{ 
+    background: #24acb3;
+    color: #FFF;
+    border-radius: 6px;
+    margin: 0 auto;
+    height: 48px;
+    line-height: 38px;
+    display: table;
+    font-size: 15px;
+    width: 100%;
+}
+
+.btn:hover{
+    background:#FFF;
+    border:2px solid #24acb3;
+}
+
+.forgot{
+    text-align:center;
+    margin-top:30px;
+    font-size:16px;
+}
+
+.nav-tabs{
+    border: none;
+    margin: 0 auto;
+    display: table;
+}
+/* 
+.fa{
+    color:#FFF;
+    background: #24acb3;
+    padding: 40px;
+    border-radius: 50%;
+} */
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*  .fa:hover{
+    color:#24acb3;
+    background: #FFF;
+    border:2px solid #24acb3;
+    margin-top:-4px;
+}  */
+
+.inner-form:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out; 
+}
+
+
+.btn22{
+	background-color: #c86b6b;
+    color: #FFF;
+    border-radius: 6px;
+    margin: 0 auto;
+     margin-top: 30px;
+    height: 48px;
+    line-height: 38px;
+    font-size: 15px;
+    width: 48%;
+}
+
+.btn33{
+	background-color: #c86b6b;
+    color: #FFF;
+    border-radius: 6px;
+    margin: 0 auto;
+     margin-top: 30px;
+    height: 48px;
+    line-height: 38px;
+    font-size: 15px;
+    width: 30%;
+}
